@@ -252,7 +252,7 @@ void usage(){
     printf("        -i interative\n");
 }
 
-/* error because index out of bound. */
+/* error message. */
 void runtime_error(char * e){
     printf("\nOpps! error in %s\n", e);
     exit(-1);

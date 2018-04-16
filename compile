@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gcc -Wall -I ./include ./src/*.c -o $1
+
+
